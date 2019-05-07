@@ -1,9 +1,11 @@
-# Installation
+## Installation
 
 ```javascript
 $ npm i ngx-horizontal-timeline
 ```
-## Import
+## Usage
+
+### Import
 
 ```javascript
 import { NgxHorizontalTimelineModule } from 'ngx-horizontal-timeline';
@@ -20,7 +22,7 @@ import { NgxHorizontalTimelineModule } from 'ngx-horizontal-timeline';
 })
 export class AppModule { }
 ```
-## Component
+### Component
 
 ```javascript
 ...
@@ -49,7 +51,7 @@ ngOnInit() {
   });
 }
 ```
-## HTML
+### Template
 
 ```html
 <ngx-htl-horizontal-timeline [(items)]="items"></ngx-htl-horizontal-timeline>
