@@ -1,7 +1,8 @@
 # Installation
 
-<div class="highlight highlight-text-html-basic"><pre>$ npm i ngx-horizontal-timeline</pre></div>
-
+```javascript
+$ npm i ngx-horizontal-timeline
+```
 # Usage
 
 <div class="highlight highlight-source-ts"><pre><span class="pl-k">import</span> { <span class="pl-smi">NgxHorizontalTimelineModule</span> } <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>ngx-horizontal-timeline<span class="pl-pds">'</span></span>;
