@@ -3,8 +3,7 @@ import { TimelineItem } from 'projects/ngx-horizontal-timeline/src/public-api';
 
 @Component({
   selector: 'ho-tl-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
   items: TimelineItem[] = [];
