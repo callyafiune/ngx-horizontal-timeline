@@ -20,7 +20,38 @@ import { NgxHorizontalTimelineModule } from 'ngx-horizontal-timeline';
 })
 export class AppModule { }
 ```
+Component
 
+```javascript
+ items: TimelineItem[];
+ 
+ngOnInit() {
+  this.items.push({
+    label: 'Test 1',
+    icon: 'glyphicon glyphicon-adjust',
+    active: true,
+    title: 'Example 1',
+    color: '16a085',
+    command() {
+      console.log('Action 1');
+    }
+  });
+  
+  this.items.push({
+    label: 'Test 2',
+    icon: 'fa fa-plus',
+    title: 'Example 2',
+    color: '2980b9',
+    command() {
+      console.log('Action 2');
+    }
+  });
+}
+```
+
+```html
+<ngx-htl-horizontal-timeline [(items)]="items"></ngx-htl-horizontal-timeline>
+```
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
