@@ -1,0 +1,18 @@
+<div id="timeline-wrap">
+  <div class="navigation">
+
+    <span *ngFor="let item of items">
+      <div class="timeline-label" *ngIf="item.label">{{item.label}}</div>
+
+      <div (click)="activeItem(item)" [style.background-color]="getColor(item)"
+        title="{{item.title}}"
+        [class]="
+          item.active
+            ? 'marker timeline-icon marker-active'
+            : 'marker timeline-icon'">
+        <i [class]="item.icon"></i>
+      </div>
+    </span>
+    <div class="timeline"></div>
+  </div>
+</div>
