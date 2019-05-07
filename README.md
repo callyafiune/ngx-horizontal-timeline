@@ -1,3 +1,7 @@
+# Installation
+
+<div class="highlight highlight-text-html-basic"><pre>$ npm i ngx-horizontal-timeline</pre></div>
+
 # HorizontalTimeline
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
