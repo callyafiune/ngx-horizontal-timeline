@@ -20,7 +20,7 @@ import { NgxHorizontalTimelineModule } from 'ngx-horizontal-timeline';
 })
 export class AppModule { }
 ```
-Component
+Component:
 
 ```javascript
  items: TimelineItem[];
