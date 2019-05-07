@@ -2,9 +2,15 @@
 
 <div class="highlight highlight-text-html-basic"><pre>$ npm i ngx-horizontal-timeline</pre></div>
 
-# HorizontalTimeline
+# Usage
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+<div class="highlight highlight-source-ts"><pre><span class="pl-k">import</span> { <span class="pl-smi">NgxHorizontalTimelineModule</span> } <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>ngx-horizontal-timeline<span class="pl-pds">'</span></span>;
+
+@<span class="pl-en">NgModule</span>({
+    imports: [ <span class="pl-smi">NgxHorizontalTimelineModule</span> ],
+    <span class="pl-k">...</span>
+})
+<span class="pl-k">export</span> <span class="pl-k">class</span> <span class="pl-en">AppModule</span> {}</pre></div>
 
 ## Development server
 
