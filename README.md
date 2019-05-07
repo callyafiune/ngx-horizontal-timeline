@@ -3,7 +3,7 @@
 ```javascript
 $ npm i ngx-horizontal-timeline
 ```
-# Usage
+## Import
 
 ```javascript
 import { NgxHorizontalTimelineModule } from 'ngx-horizontal-timeline';
