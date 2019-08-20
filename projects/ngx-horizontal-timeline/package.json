@@ -1,11 +1,11 @@
 {
   "name": "ngx-horizontal-timeline",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "Módulo para criação de Timeline Horizontal responsiva",
   "author": "Cally Afiune",
   "repository": {
     "type": "git",
-    "url": "https://github.com/callyafiune/angular-horizontal-timeline"
+    "url": "https://github.com/callyafiune//ngx-horizontal-timeline"
   },
   "keywords": [
     "angular",

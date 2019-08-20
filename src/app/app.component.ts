@@ -13,6 +13,7 @@ export class AppComponent implements OnInit {
       label: 'Outono',
       icon: 'glyphicon glyphicon-adjust',
       active: true,
+      styleClass: 'teste',
       title: '20 de março',
       color: '16a085',
       command() {

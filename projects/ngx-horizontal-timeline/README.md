@@ -1,24 +1,58 @@
-# NgxHorizontalTimeline
+## Installation
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.0.
+```javascript
+$ npm i ngx-horizontal-timeline
+```
+## Usage
 
-## Code scaffolding
+### Import
 
-Run `ng generate component component-name --project NgxHorizontalTimeline` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project NgxHorizontalTimeline`.
-> Note: Don't forget to add `--project NgxHorizontalTimeline` or else it will be added to the default project in your `angular.json` file. 
+```javascript
+import { NgxHorizontalTimelineModule } from 'ngx-horizontal-timeline';
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    NgxHorizontalTimelineModule
+    ...
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
+### Component
 
-## Build
+```javascript
+...
+items: TimelineItem[];
+ 
+ngOnInit() {
+  this.items.push({
+    label: 'Test 1',
+    icon: 'glyphicon glyphicon-adjust',
+    active: true,
+    title: 'Example 1',
+    color: '16a085',
+    command() {
+      console.log('Action 1');
+    }
+  });
+  
+  this.items.push({
+    label: 'Test 2',
+    icon: 'fa fa-plus',
+    title: 'Example 2',
+    color: '2980b9',
+    command() {
+      console.log('Action 2');
+    }
+  });
+}
+```
+### Template
 
-Run `ng build NgxHorizontalTimeline` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build NgxHorizontalTimeline`, go to the dist folder `cd dist/ngx-horizontal-timeline` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test NgxHorizontalTimeline` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```html
+<ngx-htl-horizontal-timeline [(items)]="items"></ngx-htl-horizontal-timeline>
+```

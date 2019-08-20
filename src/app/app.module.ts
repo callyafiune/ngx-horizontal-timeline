@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NgxHorizontalTimelineModule } from 'projects/ngx-horizontal-timeline/src/public-api';
-
 @NgModule({
   declarations: [
     AppComponent

@@ -1,7 +1,7 @@
 <div id="timeline-wrap">
   <div class="navigation">
 
-    <span *ngFor="let item of items">
+    <span *ngFor="let item of items" [class]="item.styleClass? item.styleClass: ''">
       <div class="timeline-label" *ngIf="item.label">{{item.label}}</div>
 
       <div (click)="activeItem(item)" [style.background-color]="getColor(item)"
