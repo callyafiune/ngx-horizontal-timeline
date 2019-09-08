@@ -1,3 +1,7 @@
+
+### Live Example
+[![Live Example](horizontal-timeline.PNG)](https://stackblitz.com/edit/ngx-horizontal-timeline)
+
 ## Installation
 
 ```javascript
@@ -58,6 +62,3 @@ ngOnInit() {
 <ngx-htl-horizontal-timeline [(items)]="items"></ngx-htl-horizontal-timeline>
 ```
 
-### Live Example
-[![Live Example](horizontal-timeline.PNG)](https://stackblitz.com/edit/ngx-horizontal-timeline)
-https://stackblitz.com/edit/ngx-horizontal-timeline
