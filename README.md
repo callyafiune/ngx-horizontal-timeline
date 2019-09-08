@@ -29,11 +29,11 @@ import { TimelineItem } from 'ngx-horizontal-timeline';
 
 ...
 items: TimelineItem[] = [];
- 
+
 ngOnInit() {
   this.items.push({
     label: 'Test 1',
-    icon: 'glyphicon glyphicon-adjust',
+    icon: 'fa fa-address-book-o',
     active: true,
     title: 'Example 1',
     color: '16a085',
@@ -51,7 +51,6 @@ ngOnInit() {
       console.log('Action 2');
     }
   });
-}
 ```
 ### Template
 
