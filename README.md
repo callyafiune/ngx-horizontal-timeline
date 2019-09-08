@@ -57,3 +57,5 @@ ngOnInit() {
 ```html
 <ngx-htl-horizontal-timeline [(items)]="items"></ngx-htl-horizontal-timeline>
 ```
+
+https://stackblitz.com/edit/ngx-horizontal-timeline?embed=1&file=src/app/app.component.ts
