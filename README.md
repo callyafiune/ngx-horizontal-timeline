@@ -25,6 +25,8 @@ export class AppModule { }
 ### Component
 
 ```javascript
+import { TimelineItem } from 'ngx-horizontal-timeline';
+
 ...
 items: TimelineItem[] = [];
  
