@@ -26,7 +26,7 @@ export class AppModule { }
 
 ```javascript
 ...
-items: TimelineItem[];
+items: TimelineItem[] = [];
  
 ngOnInit() {
   this.items.push({
