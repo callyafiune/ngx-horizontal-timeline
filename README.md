@@ -59,5 +59,5 @@ ngOnInit() {
 ```
 
 ### Live Example
-![Screenshot](horizontal-timeline.PNG)
+[![Live Example](horizontal-timeline.PNG)](https://stackblitz.com/edit/ngx-horizontal-timeline)
 https://stackblitz.com/edit/ngx-horizontal-timeline
