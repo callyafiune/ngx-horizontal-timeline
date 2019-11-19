@@ -1,6 +1,6 @@
 
 ### Live Example
-[Via Stackblitz](https://stackblitz.com/edit/ngx-horizontal-timeline)
+[On Stackblitz](https://stackblitz.com/edit/ngx-horizontal-timeline)
 
 ## Installation
 
