@@ -1,3 +1,4 @@
+Angular Horizontal Timeline
 
 ### Live Example
 [On Stackblitz](https://stackblitz.com/edit/ngx-horizontal-timeline)
